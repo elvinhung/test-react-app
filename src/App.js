@@ -13,7 +13,7 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/" component={TestComponent} />
-        <Route exact path="/error" component={Error} />
+        <Route path="/error" component={Error} />
       </Switch>
     </Router>
   );
